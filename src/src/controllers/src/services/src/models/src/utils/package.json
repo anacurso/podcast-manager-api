@@ -1,0 +1,24 @@
+{
+  "name": "podcast-manager-api",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de podcasts utilizando Node.js, TypeScript e HTTP Module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api",
+    "podcast"
+  ],
+  "author": "Ana",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
